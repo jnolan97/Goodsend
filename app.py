@@ -1,5 +1,5 @@
 import os
-from firebase_admin import credentials, firestore, initialize_app
+from firebase_admin import credentials, firestore, initialize_app, db
 from flask import Flask, render_template, request, redirect, url_for
 from goodsend.forms import UserInfoForm
 from flask_login import login_required,login_user,current_user,logout_user
@@ -9,8 +9,8 @@ from goodsend.models import User, check_password_hash
 # Initialize Firestore DB
 # cred = credentials.Certificate('./goodsend/key.json')
 # default_app = initialize_app(cred)
-# db = firestore.client()
-# ben_ref = db.collection('beneficiary')
+db = firestore.client()
+ben_ref = db.collection('beneficiary')
 # field_create = {
 #     "name": "test",
 #     "email": "testmail@test.com",
@@ -29,8 +29,17 @@ def create():
         last_name = form.last_name.data
         email = form.email.data
         password = form.password.data
-        user = User(first_name,last_name,email,password)
-        ben_ref.document().create(user)
+        # user = User(first_name,last_name,email,password)
+        field_create = {
+            "first_name": first_name,
+            "last_name" : last_name,
+            "email" : email,
+            "password" : password
+        }
+        ben_ref.document().create(field_create)
+        # ben_ref.document().create(last_name)
+        # ben_ref.document().create(email)
+        # ben_ref.document().create(password)
 
     # try:
     #     id = request.form['id']
