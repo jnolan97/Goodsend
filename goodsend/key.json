@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "goodsend-app",
+  "private_key_id": "45a506ae38dafd258d589eb13b649c9c97d97659",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2+9w+tvbT/xN2\nb7/0ULvb7P6Qy8YUJOZYozzXVi0E9YC+gYHEIMsydJNUTpkLNprKNb7hSs/4qkbe\n1f71zPlhfOan2yonle3qPR2saoihh85di5rVSz5u/UV02VekNnJ8p/8ggmvIeaYC\nPIhBDQ1EhxDA/UACQMMUgQSJMFn9huOt8TPGwZnyNuMuAF3jl2t2B+2nCloefcZz\nuMBv44s/IVrc14nlyHVCJaFV6v/b4qvm1fu4h8q5XYtjye5L17xGchYMATrABTGE\n9GDz7gO47Mb1jc+s4KJbC1wKF9k7ZIAXx/fuN/qrj748Bcld4F1D8StXG9zoy2+a\nyProLRQpAgMBAAECggEABJsSeDNPmKvxCo2LBxmuH33CYD96I6EpzsgtvJzTGBlx\ngroMm7TDReiYbxTlthoggMpOsj8uvMCqdSrtQTTGKn2ZP6yHoy9F/wadSSz1oJ05\nZPI3NOWxM1wleVNhfkUO534ssN3fhnsGDO8xncjikTDrdh7EaO9w3u1VbCTpqvTa\nlIdErL7Foh4jFVK8b16OFDkFj+0k0qN1c6F1DnNABJR1BzSPHyNAEpqqXES2L0Zo\nughIXzrS0n3QPiK+zaT3JXhpa1D/JJURyxKHEpPh+72ts4NVAU44GYrsXD+ejIsE\nk9HsmDRP7s14N7Heg4InNqPfvrF49pZea+72/6ssgQKBgQDdAOVjZAnISLYEO+5l\n7HOX+MVKoYEOHSUh4xs4Kg1AK/tmFUO6PNWy19b5i+YpCnoezpg0tWm7WdTlpAsg\nkOd6zK2ee6+TD/cwFo8gmf9P4Fivomg2Aya+q8duMzFTlGwwP8sRtK7K0TBalM70\nhqNoVUJjI0Gx/sxWuRG9KJRfQQKBgQDT9bY7zSX4ta7GsLYRjjTrBbIzWBd28wMX\nx7WSHaw3Nf4RfZOhkEr3M+ONsEWc1+lvz8C8AS+dSPVVy31tE5NKSu38GZkjvMyS\nvsyV/L9SMu0Tet7bOP88S/Pg7pVJCbm9CFesW4LhYuQS/j/xPyoD0u3IDMMcRyz+\nUrMF1Uvi6QKBgFFSChYncl4LO0aVkuRYPDSYamhKw0UhPk+Y1KQ2/Qc259upSXGW\n/v8+4rCSZM+HNmZtmJ4UfuJcbLVPRnTmPPb3p48gbfuMLWW5d1MEt2h54chG11fA\nkxon9Us8dRMPEzwxzRQnywWAMe2ywfBCNpCmhrYZ/At1+VST5s4Wx3nBAoGBAL7v\nLIWaO4ZbQ2HAdYJC8/ByZSBTTm/cYQDe6fUBvczOWlwvHvn/HUip+WX9T/gFl0cd\ngqTY/KdWvYnXkNjdNWVLMi5ScNz8idv2/BxwXXgSX/WYTYB1S5ZpZPtOcDQnCqX6\nCeA9XxzhFEr3tWoAWDyxmXkH5gpnI2TF4nZyubVhAoGAfje2bISxafj7jxsbu9a9\nrgd5hV/iC9wcoFY+kHsCggcIAFY++ilv2WNjNqITbu+OQXz2dlu5/g/stEezgF2a\nfKTBF5x1j7Ve3B5Q1OywzshQTm+7nCTpSFKFEW8l3mauX9vi/k3+o4ThgYHQR19K\nqPZJ6v1lPCYl6R1GYJUdkGg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-n3yni@goodsend-app.iam.gserviceaccount.com",
+  "client_id": "108693898996233656476",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-n3yni%40goodsend-app.iam.gserviceaccount.com"
+}
