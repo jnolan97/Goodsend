@@ -5,7 +5,7 @@ from goodsend.forms import UserInfoForm
 from flask_login import login_required,login_user,current_user,logout_user
 from goodsend import app
 from goodsend.models import User, check_password_hash
-
+from werkzeug.security import generate_password_hash, check_password_hash
 # Initialize Firestore DB
 # cred = credentials.Certificate('./goodsend/key.json')
 # default_app = initialize_app(cred)
@@ -16,6 +16,9 @@ ben_ref = db.collection('beneficiary')
 #     "email": "testmail@test.com",
 # }
 # ben_ref.document().create(field_create)
+def set_password(password):
+    pw_hash = generate_password_hash(password)
+    return pw_hash
 @app.route('/register', methods=['GET','POST'])
 def create():
     """
@@ -34,7 +37,7 @@ def create():
             "first_name": first_name,
             "last_name" : last_name,
             "email" : email,
-            "password" : password
+            "password" : set_password(password)
         }
         ben_ref.document().create(field_create)
         # ben_ref.document().create(last_name)
