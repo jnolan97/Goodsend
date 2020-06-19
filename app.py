@@ -7,6 +7,11 @@ cred = credentials.Certificate('./goodsend/key.json')
 default_app = initialize_app(cred)
 db = firestore.client()
 ben_ref = db.collection('beneficiary')
+field_create = {
+    "name": "test",
+    "email": "testmail@test.com",
+}
+ben_ref.document().create(field_create)
 @app.route('/add', methods=['POST'])
 def create():
     """
