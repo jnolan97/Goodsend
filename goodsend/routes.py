@@ -9,10 +9,6 @@ from flask_login import login_required,login_user,current_user,logout_user
 from goodsend import app,routes
 
 
-
-
-
-
 @app.route('/add', methods=['POST'])
 def create():
     """
